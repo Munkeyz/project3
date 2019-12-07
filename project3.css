@@ -1,9 +1,45 @@
+body {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.logoposition {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.logoposition img{
+    width: 100%
+}
 .roomtext {
     color: darkslategrey;
     font-family: 'Alatsi', sans-serif;
     font-size: 35px;
     font-weight: bold;
 }
+.roomtext2 {
+    color: darkslategrey;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    padding: 10px;
+}
+
+.container2 {
+    position: absolute;
+    top: 10px;
+    width: 33.3333333vw;
+    right: 5%;
+}
+
 .box1 {
     position: relative;
     background-color: white;
@@ -12,8 +48,8 @@
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    width: 16.6666667vw;
-    top: 20vh;
+    width: 33.33333333vw;
+    margin-bottom: 25px;
 }
 .box2 {
     position: relative;
@@ -22,9 +58,9 @@
     padding: 15px;
     border-style: solid;
     border-widtH: 5px;
-    border-color: darkslategrey;   
-    width: 16.6666667vw;
-    top: 20vh;
+    border-color: darkslategrey;  
+    width: 33.33333333vw;
+    margin-bottom: 25px;
 }
 .box3 {
     position: relative;
@@ -34,47 +70,53 @@
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    top: 100vh
+    margin-bottom: 25px;
+    width: 33.33333333vw;
 }
 .box4 {
-    position: relative;
     background-color: white;
     line-height: 35px;
     padding: 15px;
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    top: 100vh
+    width: 33.33333333vw;
+    margin-bottom: 25px;
 }
 .box5 {
-    position: relative;
     background-color: white;
     line-height: 35px;
     padding: 15px;
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    top: 100vh
+    width: 33.33333333vw;
+    margin-bottom: 25px;
 }
 .box6 {
-    position: relative;
+
     background-color: white;
     line-height: 35px;
     padding: 15px;
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    top: 100vh
+    margin-bottom: 25px;
+    width: 33.33333333vw;
 }
 .box7 {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    transform: translateX(-50%);
     background-color: white;
     line-height: 35px;
     padding: 15px;
     border-style: solid;
     border-widtH: 5px;
     border-color: darkslategrey;
-    top: 100vh
+    width: 20%;
+
 }
 .textcss {
     color: darkslategrey;

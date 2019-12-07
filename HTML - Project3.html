@@ -1,134 +1,147 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="project3.css">
-    </head>
-    <body>
-        <div class = "box1">
-            <div class = "roomtext">Room One</div>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="project3.css">
+</head>
+
+<body>
+    <div class="logoposition">
+        <img src="kaikai.png">
+    </div>
+    <div class="container">
+        <div class="box1">
+            <div class="roomtext">Room One</div>
             <div>
-                <input type = "text" class = "textcss" id = "addPerson1">       
-                <button class = "textcss" id = "addButton1" onclick = "addName1()">Check In</button>
+                <input type="text" class="textcss" id="addPerson1" maxlength="20">
+                <button class="textcss" id="addButton1" onclick="addName1()">Check In</button>
             </div>
             <div>
-                <input type = "text" class = "textcss" id = "removePerson1">
-                <button class = "textcss" id = "removeButton1" onclick = "removeName1()">Check Out</button>
+                <input type="text" class="textcss" id="removePerson1">
+                <button class="textcss" id="removeButton1" onclick="removeName1()">Check Out</button>
             </div>
             <div>
-                <button class = "textcss" onclick="disableRoom1()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom1()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll1()">Remove All</button>
+                <button class="textcss" onclick="disableRoom1()">Lock Room</button>
+                <button class="textcss" onclick="undisableRoom1()">Unlock Room</button>
+                <button class="textcss" onclick="removeAll1()">Remove All</button>
             </div>
-            <div class = "items">
-                <ol id = "ol1"></ol>
-                <div class = "stoptext" id = "stop1"></div>
+            <div class="items">
+                <ol id="ol1"></ol>
+                <div class="stoptext" id="stop1"></div>
             </div>
         </div>
-        <div class = "box2">
-            <div class = "roomtext">Room Two</div>
+        <div class="box2">
+            <div class="roomtext">Room Two</div>
             <div>
-                <input type = "text" class = "textcss" id = "addPerson2">       
-                <button class = "textcss" id = "addButton2" onclick = "addName2()">Check In</button>
+                <input type="text" class="textcss" id="addPerson2" maxlength="20">
+                <button class="textcss" id="addButton2" onclick="addName2()">Check In</button>
             </div>
             <div>
-                <input type = "text" class = "textcss" id = "removePerson2">
-                <button class = "textcss" id = "removeButton2" onclick = "removeName2()">Check Out</button>
+                <input type="text" class="textcss" id="removePerson2">
+                <button class="textcss" id="removeButton2" onclick="removeName2()">Check Out</button>
             </div>
             <div>
-                <button class = "textcss" onclick="disableRoom2()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom2()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll2()">Remove All</button>
+                <button class="textcss" onclick="disableRoom2()">Lock Room</button>
+                <button class="textcss" onclick="undisableRoom2()">Unlock Room</button>
+                <button class="textcss" onclick="removeAll2()">Remove All</button>
             </div>
-            <div class = "items">
-                <ol id = "ol2"></ol>
-                <div class = "stoptext" id = "stop2"></div>
+            <div class="items">
+                <ol id="ol2"></ol>
+                <div class="stoptext" id="stop2"></div>
             </div>
         </div>
-        <div class = "box3">
-            <div class = "roomtext">Room Three</div>
+        <div class="box3">
+            <div class="roomtext">Room Three</div>
             <div>
-                <input type = "text" class = "textcss" id = "addPerson3">       
-                <button class = "textcss" id = "addButton3" onclick = "addName3()">Check In</button>
+                <input type="text" class="textcss" id="addPerson3" maxlength="20">
+                <button class="textcss" id="addButton3" onclick="addName3()">Check In</button>
             </div>
             <div>
-                <input type = "text" class = "textcss" id = "removePerson3">
-                <button class = "textcss" id = "removeButton3" onclick = "removeName3()">Check Out</button>
+                <input type="text" class="textcss" id="removePerson3">
+                <button class="textcss" id="removeButton3" onclick="removeName3()">Check Out</button>
             </div>
             <div>
-                <button class = "textcss" onclick="disableRoom3()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom3()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll3()">Remove All</button>
+                <button class="textcss" onclick="disableRoom3()">Lock Room</button>
+                <button class="textcss" onclick="undisableRoom3()">Unlock Room</button>
+                <button class="textcss" onclick="removeAll3()">Remove All</button>
             </div>
-            <div class = "items">
-                <ol id = "ol3"></ol>
-                <div class = "stoptext" id = "stop3"></div>
+            <div class="items">
+                <ol id="ol3"></ol>
+                <div class="stoptext" id="stop3"></div>
             </div>
         </div>
-        <div class = "box4">
-            <div class = "roomtext">Room Four</div>
-            <div>
-                <input type = "text" class = "textcss" id = "addPerson4">       
-                <button class = "textcss" id = "addButton4" onclick = "addName4()">Check In</button>
+        <div class="container2">
+            <div class="box4">
+                <div class="roomtext">Room Four</div>
+                <div>
+                    <input type="text" class="textcss" id="addPerson4" maxlength="20">
+                    <button class="textcss" id="addButton4" onclick="addName4()">Check In</button>
+                </div>
+                <div>
+                    <input type="text" class="textcss" id="removePerson4">
+                    <button class="textcss" id="removeButton4" onclick="removeName4()">Check Out</button>
+                </div>
+                <div>
+                    <button class="textcss" onclick="disableRoom4()">Lock Room</button>
+                    <button class="textcss" onclick="undisableRoom4()">Unlock Room</button>
+                    <button class="textcss" onclick="removeAll4()">Remove All</button>
+                </div>
+                <div class="items">
+                    <ol id="ol4"></ol>
+                    <div class="stoptext" id="stop4"></div>
+                </div>
             </div>
-            <div>
-                <input type = "text" class = "textcss" id = "removePerson4">
-                <button class = "textcss" id = "removeButton4" onclick = "removeName4()">Check Out</button>
+            <div class="box5">
+                <div class="roomtext">Room Five</div>
+                <div>
+                    <input type="text" class="textcss" id="addPerson5" maxlength="20">
+                    <button class="textcss" id="addButton5" onclick="addName5()">Check In</button>
+                </div>
+                <div>
+                    <input type="text" class="textcss" id="removePerson5">
+                    <button class="textcss" id="removeButton5" onclick="removeName5()">Check Out</button>
+                </div>
+                <div>
+                    <button class="textcss" onclick="disableRoom5()">Lock Room</button>
+                    <button class="textcss" onclick="undisableRoom5()">Unlock Room</button>
+                    <button class="textcss" onclick="removeAll5()">Remove All</button>
+                </div>
+                <div class="items">
+                    <ol id="ol5"></ol>
+                    <div class="stoptext" id="stop5"></div>
+                </div>
             </div>
-            <div>
-                <button class = "textcss" onclick="disableRoom4()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom4()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll4()">Remove All</button>
-            </div>
-            <div class = "items">
-                <ol id = "ol4"></ol>
-                <div class = "stoptext" id = "stop4"></div>
-            </div>
-        </div>
-        <div class = "box5">
-            <div class = "roomtext">Room Five</div>
-            <div>
-                <input type = "text" class = "textcss" id = "addPerson5">       
-                <button class = "textcss" id = "addButton5" onclick = "addName5()">Check In</button>
-            </div>
-            <div>
-                <input type = "text" class = "textcss" id = "removePerson5">
-                <button class = "textcss" id = "removeButton5" onclick = "removeName5()">Check Out</button>
-            </div>
-            <div>
-                <button class = "textcss" onclick="disableRoom5()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom5()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll5()">Remove All</button>
-            </div>
-            <div class = "items">
-                <ol id = "ol5"></ol>
-                <div class = "stoptext" id = "stop5"></div>
-            </div>
-        </div>
-        <div class = "box6">
-            <div class = "roomtext">Room Six</div>
-            <div>
-                <input type = "text" class = "textcss" id = "addPerson6">       
-                <button class = "textcss" id = "addButton6" onclick = "addName6()">Check In</button>
-            </div>
-            <div>
-                <input type = "text" class = "textcss" id = "removePerson6">
-                <button class = "textcss" id = "removeButton6" onclick = "removeName6()">Check Out</button>
-            </div>
-            <div>
-                <button class = "textcss" onclick="disableRoom6()">Lock Room</button>
-                <button class = "textcss" onclick="undisableRoom6()">Unlock Room</button>
-                <button class = "textcss" onclick="removeAll6()">Remove All</button>
-            </div>
-            <div class = "items">
-                <ol id = "ol6"></ol>
-                <div class = "stoptext" id = "stop6"></div>
-            </div>
-        </div>
-        <div class = "box7">
-            <div class = "roomtext">Activity Log</div>
-            <div class = "items">
-                <ol id = "logbox"></ol>
+            <div class="box6">
+                <div class="roomtext">Room Six</div>
+                <div>
+                    <input type="text" class="textcss" id="addPerson6" maxlength="20">
+                    <button class="textcss" id="addButton6" onclick="addName6()">Check In</button>
+                </div>
+                <div>
+                    <input type="text" class="textcss" id="removePerson6">
+                    <button class="textcss" id="removeButton6" onclick="removeName6()">Check Out</button>
+                </div>
+                <div>
+                    <button class="textcss" onclick="disableRoom6()">Lock Room</button>
+                    <button class="textcss" onclick="undisableRoom6()">Unlock Room</button>
+                    <button class="textcss" onclick="removeAll6()">Remove All</button>
+                </div>
+
+                <div class="items">
+                    <ol id="ol6"></ol>
+                    <div class="stoptext" id="stop6"></div>
+                </div>
+
             </div>
         </div>
-        <script src="project3.js"></script>
-    </body>
+        <div class="box7">
+            <div class="roomtext2">Activity Log</div>
+            <div class="items">
+                <ol id="logbox"></ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="project3.js"></script>
+</body>
+
 </html>
